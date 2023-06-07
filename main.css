@@ -7,11 +7,11 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0eef7;
+  background-color: #c0cbf9;
 }
 
 header {
-  background-color: #4947a8;
+  background-color: #0033ffa6;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -44,7 +44,7 @@ nav a {
   outline: none;
 }
 
-.search-bar button {
+.search-bar button, .sign-in button {
   padding: 8px 16px;
   border-radius: 4px;
   border: none;
@@ -155,8 +155,6 @@ footer {
   text-align: center;
 }
 
-
-
 /* hamburger menu */  
 .hamburger {
   position: relative;
@@ -199,11 +197,10 @@ footer {
   min-height: 100vh;
   display: block;
   z-index: 98;
-  background-color: #4947a8;
-  margin-top: 60px;
+  background-color: #0033ffa6;
+  margin-top: 79px;
   padding-top: 120px;
   transition: 0.4s;
-  
 }
 
 .mobile-nav.is-active {
@@ -212,7 +209,6 @@ footer {
 
 .mobile-nav a{
   display: block;
-  width: 100%;
   max-width: 200px;
   margin: 0 auto 16px;
   text-align: center;
@@ -223,7 +219,13 @@ footer {
   text-decoration: none;
 }
 
-.mobile-nav a:hover{
+.mobile-nav ul{
+  display: block;
+  text-align: center;
+    text-decoration: none;
+}
+
+.mobile-nav a:hover, .search-bar button:hover, .cta-button:hover{
   background-color: #9695c1;
 }
 
@@ -243,5 +245,4 @@ footer {
   .menu {
     display: none;
   }
-
 }
