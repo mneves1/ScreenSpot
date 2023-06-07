@@ -16,10 +16,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
 }
 
-.logo img {
-  height: 40px;
+header a {
+  color: #fff;
 }
 
 nav ul {
@@ -225,7 +226,7 @@ footer {
     text-decoration: none;
 }
 
-.mobile-nav a:hover, .search-bar button:hover, .cta-button:hover{
+.mobile-nav a:hover, .search-bar button:hover, .cta-button:hover, .sign-in button:hover{
   background-color: #9695c1;
 }
 
