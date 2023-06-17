@@ -7,6 +7,9 @@
 
     <link rel="stylesheet" href="/main.css">
     <script src="/main.js" ></script>
+    <script src="https://www.youtube.com/player_api"></script>
+
+
   </head>
 
   <body>
@@ -18,6 +21,7 @@
         <li><a href="pages/movies.html">Movies</a></li>
         <li><a href="pages/shows.html">Shows</a></li>
         <li><a href="pages/concerts.html">Concerts</a></li>
+        <li><a href="pages/mylist.html">My List</a></li>
       </ul>
     </nav>
     <nav>
@@ -32,20 +36,44 @@
         <a href="pages/movies.html">Movies</a>
         <a href="pages/shows.html">Shows</a>
         <a href="pages/concerts.html">Concerts</a>
+        <a href="pages/sign-in.html">My List</a>
         <ul class="search-bar">
           <input type="text" placeholder="Search">
           <button>Search</button>
         </ul>
     </nav>
 
-
   </header>
 
+
     <main>
+      <!-- <section class="hero">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/LM2F56uK0fs?autoplay=1&mute=1&loop=1&playlist=LM2F56uK0fs&controls=0"  ></iframe>
+        </div>
+      </section> -->
+      
+      <!-- <section class="hero">
+        <div class="video-container">
+          <iframe id="video-iframe" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </section> -->
+
       <section class="hero">
+        <div class="video-container">
+          <div id="player"></div>
+        </div>
+      </section>
+      
+      
+      
+
+  
+
+      <!-- <section class="hero">
         <p>Discover the best movies, shows, and concerts.</p>
         <a href="#" class="cta-button">Explore</a>
-      </section>
+      </section> -->
 
       <section class="genre-section">
         <h2>Comedy Movies</h2>
@@ -83,31 +111,91 @@
         <div class="genre-grid">
           <!-- Add movie genres and content here -->
           <div class="genre-card">
-            <img src="images/movies/Comedy/MurderMistery.jpg" alt="Comedy">
+            <img src="images/Shows/greysAnatomy.jpg" >
           </div>
           <div class="genre-card">
-            <img src="images/movies/Comedy/TheAdamProject.jpg" alt="Comedy">
+            <img src="images/Shows/BreakingBad.jpeg" >
           </div>
           <div class="genre-card">
-            <img src="images/movies/Comedy/BadBoysII.jpg" alt="Comedy">
+            <img src="images/Shows/ourPlanet.jpg" >
           </div>
           <div class="genre-card">
-            <img src="images/movies/Comedy/Don'tLookUp.jpg" alt="Comedy">
+            <img src="images/Shows/laReynaDelSur.jpeg" >
           </div>
           <div class="genre-card">
-            <img src="images/movies/Comedy/TheDictator.jpg" alt="Comedy">
+            <img src="images/Shows/TomandJerry.jpg" >
           </div>
           <div class="genre-card">
-            <img src="images/movies/Comedy/DirtyGrampa.jpeg" alt="Comedy">
+            <img src="images/Shows/Arnold.jpg" >
           </div>
           <div class="genre-card">
-            <img src="images/movies/Comedy/Spanglish.jpg" alt="Comedy">
+            <img src="images/Shows/nightAgent.jpg" alt="Comedy">
           </div>
           <div class="genre-card">
-            <img src="images/movies/Comedy/AboutLastNight.jpg" alt="Comedy">
+            <img src="images/Shows/StrangerThings.jpg" alt="Comedy">
           </div>
         </div>
       </section>
+
+
+
+      <section class="genre-section">
+        <h2>Movies Based on Real Life </h2>
+        <div class="genre-grid">
+          <div class ="genre-card">
+            <img src="images/movies/RealLife/ExtremelyWicked.jpeg" alt="Real Life">
+          </div>
+          <div class ="genre-card">
+            <img src="images/movies/RealLife/12Strong.jpg" alt="Real Life">
+          </div>
+          <div class ="genre-card">
+            <img src="images/movies/RealLife/Worth.jpg" alt="Real Life">
+          </div>
+          <div class ="genre-card">
+            <img src="images/movies/RealLife/AgainstTheIce.jpg" alt="Real Life">
+          </div>
+          <div class ="genre-card">
+            <img src="images/movies/RealLife/theDig.jpg" alt="Real Life">
+          </div>
+          <div class ="genre-card">
+            <img src="images/movies/RealLife/FatherStu.jpg" alt="Real Life">
+          </div>
+          <div class ="genre-card">
+            <img src="images/movies/RealLife/22July.jpg" alt="Real Life">
+          </div>
+          <div class ="genre-card">
+            <img src="images/movies/RealLife/blueMiracle.jpg" alt="Real Life">
+
+      </section>
+
+      <section class="genre-section">
+        <h2>Action Thriller Movies </h2>
+        <div clas="genre-grid">
+
+        </div>
+      </section>
+
+      <section class="genre-section">
+        <h2>Family Movie Night </h2>
+        <div clas="genre-grid">
+          
+        </div>
+      </section>
+
+      <section class="genre-section">
+        <h2>Award-Wining Movies </h2>
+        <div clas="genre-grid">
+          
+        </div>
+      </section>
+
+      <section class="genre-section">
+        <h2>My List </h2>
+        <div clas="genre-grid">
+          
+        </div>
+      </section>
+
 
     <section class="content-listing">
       <h2>Popular Movies</h2>
