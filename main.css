@@ -184,6 +184,7 @@ footer {
   outline: none;
   border: none;
 }
+
 /* hamburger bars */
 .hamburger .bar, .hamburger::after, .hamburger::before {
   content: '';
@@ -263,3 +264,38 @@ footer {
     display: none;
   }
 }
+
+.sign-in-section {
+  position: relative;
+  background-color: #0033ffa6;
+  color: #fff;
+  text-align: left;
+  padding: 8%;
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 3%;
+}
+.sign-in-section form {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.sign-in-section [type = "email"], [type = "password"]  {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  margin-bottom: 3%;
+}
+.sign-in-section button {
+  width: 100%;
+  padding: 10px;
+}
+.sign-in-section .Sign-Up-link{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10%;
+}
+
