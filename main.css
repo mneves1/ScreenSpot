@@ -17,6 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
+  z-index: 2;
 }
 
 header a {
@@ -214,7 +215,7 @@ footer {
   width: 100%;
   min-height: 100vh;
   display: block;
-  z-index: 98;
+  z-index: 1;
   background-color: #0033ffa6;
   margin-top: 79px;
   padding-top: 120px;
@@ -240,7 +241,7 @@ footer {
 .mobile-nav ul{
   display: block;
   text-align: center;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .mobile-nav a:hover, .search-bar button:hover, .cta-button:hover, .sign-in button:hover{
