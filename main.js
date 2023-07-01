@@ -7,6 +7,8 @@ window.onload = function() {
     mobile_menu.classList.toggle('is-active');
   });
 };
+
+
 // Array of YouTube video IDs
 const videoIDs = ['LM2F56uK0fs', 'X9ebeNKkc08', 'cnDObXxwWy0', 'LM2F56uK0fs'];
 
