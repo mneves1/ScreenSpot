@@ -190,6 +190,7 @@ main {
 }
 
 
+
 /* Genre Section */
 .genre-section {
   transform: translateY(-240px);
@@ -256,7 +257,7 @@ main {
 }
 
 /* Details section */
-.details-section{
+.details-section {
   position: relative;
   background-color: #4e89ad;
   color: #fff;
@@ -266,7 +267,6 @@ main {
   margin-right: 10%;
   transform: translateY(-100px);
   padding-left: 4%;
-  
 }
 .details-section div{
   display: flex;
@@ -290,7 +290,7 @@ main {
   transform: translateY(-130px);
   background-color: #4e89ad45;
   border-radius: 10px;
-  
+  z-index: 2;
 }
 .comment-section .cta-button{
   display: inline-block;
@@ -323,6 +323,21 @@ main {
   margin-left: 2px;
 }
 
+
+/* Purchase links */
+
+.purchase-links{
+  position: relative;
+  background-color: #4e89ad;
+  position: center;
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  transform: translateY(-100px);
+  z-index: 3;
+}
+
 /* Footer */
 footer {
   background-color: #013352;
@@ -330,3 +345,4 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
