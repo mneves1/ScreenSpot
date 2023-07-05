@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScreenSpot</title>
+  <link rel="stylesheet" href="../../../main.css">
+  <script src="../../../main.js" ></script>
+  <script src="https://www.youtube.com/player_api"></script>
+</head>
+
+<body>
+  <header>
+    <h1><a href="../../../index.html">ScreenSpot</a></h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="../../../pages/movies/movies.html">Movies</a></li>
+        <li><a href="../../../pages/shows/shows.html">Shows</a></li>
+        <li><a href="../../../pages/concerts/concerts.html">Concerts</a></li>
+        <li><a href="../../../pages/myLists/myLists.html">My Lists</a></li>
+      </ul>
+    </nav>
+    <nav class="cta-button">
+      <button><a href="../../../pages/sign-in.html">Sign In</a></button>
+    </nav>
+    <nav>
+      <ul class="search-bar">
+        <input type="text" placeholder="Search">
+      </ul>
+    <button class="hamburger">
+      <div class = "bar"></div>
+    </button>
+
+    <nav class="mobile-nav">
+      <a href="../../../pages/movies/movies.html">Movies</a>
+      <a href="../../../pages/shows/shows.html">Shows</a>
+      <a href="../../../pages/concerts/concerts.html">Concerts</a>
+      <a href="../../../pages/myLists/myLists.html">My Lists</a>
+      <ul class="search-bar">
+        <input type="text" placeholder="Search">
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="video-container">
+        <div>
+          <iframe 
+          src="https://www.youtube.com/embed/6QFYLx0Q5OE?autoplay=1&mute=1&controls=0"frameborder="0">
+          </iframe>
+        </iframe>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Details section -->
+    <section class="details-section">
+      <div class="cta-button">
+        <button><a href="https://www.netflix.com/watch/80171678?trackId=255824129&tctx=0%2C0%2CNAPA%40%40%7C06a89071-b7a9-44f6-9280-063d36e2fd34-305019747_titles%2F1%2F%2Fburn%20out%2F0%2F0%2CNAPA%40%40%7C06a89071-b7a9-44f6-9280-063d36e2fd34-305019747_titles%2F1%2F%2Fburn%20out%2F0%2F0%2Cunknown%2C%2C06a89071-b7a9-44f6-9280-063d36e2fd34-305019747%7C1%2CtitlesResults%2C80171678%2CVideo%3A80171678%2CminiDpPlayButton">Watch Now</a></button>
+      </div>
+      <div class="rating-section">
+        <p>2017 1h 43m</p>
+      </div>
+      <div class ="desctiption">
+        <p>a bike racer moonlights as a drug courier to clear his moms debt. </p>
+      </div>
+      <div class="casting-section">
+        <p><strong>Cast:</strong> Jimmy Gonzalez, Dennis Quaid, Anthony Gonzalez</p>
+      </div>
+    </section>
+
+    <!-- Comment section -->
+    <section class="comment-section">
+      <h2>Comments</h2>
+      <div class="cta-button">
+        <form action="index.html" method="post">
+          <input type="text" name="comment" id="comment" placeholder="Add a new comment">
+        </form>
+        <button>Post</button>
+      </div> 
+
+      <ul class="comment-list">
+        <div class="comment">
+          <div class="comment-user">
+            <img src="../../../images/user.png" alt="user">
+            <h4>Ashley</h4>
+          </div>
+          <div class="comment-text">
+            <p>I was completely hooked from the beginning till the end </p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-user">
+            <img src="../../../images/user.png" alt="user">
+            <h4>John Doe</h4>
+          </div>
+          <div class="comment-text">
+            <p>
+                Burn Out is a fast-paced and thrilling movie that keeps you on the edge of your seat.
+            </p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-user">
+            <img src="../../../images/user.png" alt="user">
+            <h4>Susan Jones</h4>
+          </div>
+          <div class="comment-text">
+            <p>
+                'Burn Out' won't disappoint
+            </p>
+          </div>
+        </div>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 ScreenSpot. All rights reserved.</p>
+  </footer>
+</body>
+</html>
