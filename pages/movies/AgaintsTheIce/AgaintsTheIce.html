@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScreenSpot</title>
+  <link rel="stylesheet" href="../../../main.css">
+  <script src="../../../main.js" ></script>
+  <script src="https://www.youtube.com/player_api"></script>
+</head>
+
+<body>
+  <header>
+    <h1><a href="../../../index.html">ScreenSpot</a></h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="../../../pages/movies/movies.html">Movies</a></li>
+        <li><a href="../../../pages/shows/shows.html">Shows</a></li>
+        <li><a href="../../../pages/concerts/concerts.html">Concerts</a></li>
+        <li><a href="../../../pages/myLists/myLists.html">My Lists</a></li>
+      </ul>
+    </nav>
+    <nav class="cta-button">
+      <button><a href="../../../pages/sign-in.html">Sign In</a></button>
+    </nav>
+    <nav>
+      <ul class="search-bar">
+        <input type="text" placeholder="Search">
+      </ul>
+    <button class="hamburger">
+      <div class = "bar"></div>
+    </button>
+
+    <nav class="mobile-nav">
+      <a href="../../../pages/movies/movies.html">Movies</a>
+      <a href="../../../pages/shows/shows.html">Shows</a>
+      <a href="../../../pages/concerts/concerts.html">Concerts</a>
+      <a href="../../../pages/myLists/myLists.html">My Lists</a>
+      <ul class="search-bar">
+        <input type="text" placeholder="Search">
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="video-container">
+        <div>
+          <iframe 
+          src="https://www.youtube.com/embed/bEyyKwVORvo?autoplay=1&mute=1&controls=0"frameborder="0">
+          
+          </iframe>
+        </iframe>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Details section -->
+    <section class="details-section">
+      <div class="cta-button">
+        <button><a href="https://www.netflix.com/watch/81115160?trackId=255824129&tctx=0%2C0%2CNAPA%40%40%7C4bee076f-1502-42d8-9c7e-80a77a9508f9-62844038_titles%2F1%2F%2Fagainst%20the%20ice%2F0%2F0%2CNAPA%40%40%7C4bee076f-1502-42d8-9c7e-80a77a9508f9-62844038_titles%2F1%2F%2Fagainst%20the%20ice%2F0%2F0%2Cunknown%2C%2C4bee076f-1502-42d8-9c7e-80a77a9508f9-62844038%7C1%2CtitlesResults%2C%2CVideo%3A81115160%2CdetailsPagePlayButton">Watch Now</a></button>
+      </div>
+      <div class="rating-section">
+        <p>2022 1h 43m</p>
+      </div>
+      <div class ="desctiption">
+        <p>Exploring Greenland's vast landscape for a lost map, two men must fight to survive. Based on the true story of Denmark's 1909 polar expedition. </p>
+      </div>
+      <div class="casting-section">
+        <p><strong>Cast:</strong> Nikolaj Coster-Waldau, Joe Cole, Heida Reed</p>
+      </div>
+    </section>
+
+    <!-- Comment section -->
+    <section class="comment-section">
+      <h2>Comments</h2>
+      <div class="cta-button">
+        <form action="index.html" method="post">
+          <input type="text" name="comment" id="comment" placeholder="Add a new comment">
+        </form>
+        <button>Post</button>
+      </div> 
+
+      <ul class="comment-list">
+        <div class="comment">
+          <div class="comment-user">
+            <img src="../../../images/user.png" alt="user">
+            <h4>Ashley</h4>
+          </div>
+          <div class="comment-text">
+            <p>I absolutely loved 'Against the Ice </p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-user">
+            <img src="../../../images/user.png" alt="user">
+            <h4>John Doe</h4>
+          </div>
+          <div class="comment-text">
+            <p>
+                I found 'Against the Ice' to be a bit slow-paced in the beginning, but it gradually builds up the tension and delivers a powerful story.
+            </p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-user">
+            <img src="../../../images/user.png" alt="user">
+            <h4>Susan Jones</h4>
+          </div>
+          <div class="comment-text">
+            <p>
+                I appreciated the historical accuracy and attention to detail in 'Against the Ice.' 
+            </p>
+          </div>
+        </div>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 ScreenSpot. All rights reserved.</p>
+  </footer>
+</body>
+</html>
