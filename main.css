@@ -168,6 +168,11 @@ main {
   text-align: center;
   z-index: 1;
 }
+.hero img{
+  transform: translateY(40px);
+  position: relative;
+  width: 100%;
+}
 .hero .video-container {
   position: relative;
   width: 100%;
