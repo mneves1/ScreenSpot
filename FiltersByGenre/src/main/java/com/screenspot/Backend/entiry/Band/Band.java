@@ -1,4 +1,4 @@
-package com.screenspot.Backend.entiry;
+package com.screenspot.Backend.entiry.Band;
 
 import jakarta.persistence.*;
 @Entity

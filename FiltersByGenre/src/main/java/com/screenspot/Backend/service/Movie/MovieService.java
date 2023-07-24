@@ -1,7 +1,7 @@
-package com.screenspot.Backend.service;
+package com.screenspot.Backend.service.Movie;
 
-import com.screenspot.Backend.entiry.Movie;
-import com.screenspot.Backend.repository.MovieRepository;
+import com.screenspot.Backend.entiry.Movie.Movie;
+import com.screenspot.Backend.repository.Movie.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

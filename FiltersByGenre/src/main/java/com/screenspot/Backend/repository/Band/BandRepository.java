@@ -1,6 +1,6 @@
-package com.screenspot.Backend.repository;
+package com.screenspot.Backend.repository.Band;
 
-import com.screenspot.Backend.entiry.Band;
+import com.screenspot.Backend.entiry.Band.Band;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

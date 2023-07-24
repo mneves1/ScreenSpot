@@ -1,6 +1,6 @@
-package com.screenspot.Backend.repository;
+package com.screenspot.Backend.repository.Movie;
 
-import com.screenspot.Backend.entiry.Movie;
+import com.screenspot.Backend.entiry.Movie.Movie;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

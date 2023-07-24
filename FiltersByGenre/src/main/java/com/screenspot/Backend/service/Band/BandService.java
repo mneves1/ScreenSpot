@@ -1,7 +1,7 @@
-package com.screenspot.Backend.service;
+package com.screenspot.Backend.service.Band;
 
-import com.screenspot.Backend.entiry.Band;
-import com.screenspot.Backend.repository.BandRepository;
+import com.screenspot.Backend.entiry.Band.Band;
+import com.screenspot.Backend.repository.Band.BandRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
