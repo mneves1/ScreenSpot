@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScreenSpot</title>
+  <link rel="stylesheet" href="../../../main.css">
+  <script src="../../../main.js" ></script>
+  <script src="https://www.youtube.com/player_api"></script>
+</head>
+
+<body>
+  <header>
+    <h1><a href="../../../index.html">ScreenSpot</a></h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="../../../pages/movies/movies.html">Movies</a></li>
+        <li><a href="../../../pages/shows/shows.html">Shows</a></li>
+        <li><a href="../../../pages/concerts/concerts.html">Concerts</a></li>
+        <li><a href="../../../pages/myLists/myLists.html">My Lists</a></li>
+      </ul>
+    </nav>
+    <nav class="cta-button">
+      <button><a href="../../../pages/sign-in.html">Sign In</a></button>
+    </nav>
+    <nav>
+      <ul class="search-bar">
+        <input type="text" placeholder="Search">
+      </ul>
+    <button class="hamburger">
+      <div class = "bar"></div>
+    </button>
+
+    <nav class="mobile-nav">
+      <a href="../../../pages/movies/movies.html">Movies</a>
+      <a href="../../../pages/shows/shows.html">Shows</a>
+      <a href="../../../pages/concerts/concerts.html">Concerts</a>
+      <a href="../../../pages/myLists/myLists.html">My Lists</a>
+      <ul class="search-bar">
+        <input type="text" placeholder="Search">
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="video-container">
+        <div>
+          <iframe 
+            src="https://www.youtube.com/embed/HXkSBXrdDxs?autoplay=1&mute=1&controls=0"frameborder="0">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Details section -->
+    <section class="details-section">
+      <div class="cta-button">
+        <button><a href="https://www.netflix.com/watch/70011214?trackId=255824129&tctx=0%2C0%2CNAPA%40%40%7Ce3ffd21d-4256-4af5-9102-6751821f5a92-5711932_titles%2F1%2F%2Fspanglish%2F0%2F0%2CNAPA%40%40%7Ce3ffd21d-4256-4af5-9102-6751821f5a92-5711932_titles%2F1%2F%2Fspanglish%2F0%2F0%2Cunknown%2C%2Ce3ffd21d-4256-4af5-9102-6751821f5a92-5711932%7C1%2CtitlesResults%2C%2CVideo%3A70011214%2CdetailsPagePlayButton">Watch Now</a></button>
+      </div>
+      <div class="rating-section">
+        <p>2004 2h 11m</p>
+      </div>
+      <div class ="desctiption">
+        <p> Flor Moreno(Paz Vega) is a Mexican immigrant who is trying to find a job while in her search she becomes a housekeeper for the Clasky Family. Showing both Flor Moreno and The Claskys lives as Flor tries to get used to the American lifestyle and is caught in her own culture values. </p>
+      </div>
+      <div class="casting-section">
+        <p><strong>Cast:</strong> Adam Sandler, Paz Vega, Cloris Leachman, Tea Leoni, Shelbie Bruce </p>
+      </div>
+    </section>
+
+    <!-- Comment section -->
+    <section class="comment-section">
+      <h2>Comments</h2>
+      <div class="cta-button">
+        <form action="index.html" method="post">
+          <input type="text" name="comment" id="comment" placeholder="Add a new comment">
+        </form>
+        <button>Post</button>
+      </div> 
+
+      <ul class="comment-list">
+        <div class="comment">
+          <div class="comment-user">
+            <img src="../../../images/user.png" alt="user">
+            <h4>Ashley</h4>
+          </div>
+          <div class="comment-text">
+            <p>The performances in "22 July" are exceptional across the board. </p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-user">
+            <img src="../../../images/user.png" alt="user">
+            <h4>John Doe</h4>
+          </div>
+          <div class="comment-text">
+            <p>
+                One of the film's strengths lies in its ability to capture the raw emotions and the sheer chaos of the attacks.
+            </p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-user">
+            <img src="../../../images/user.png" alt="user">
+            <h4>Susan Jones</h4>
+          </div>
+          <div class="comment-text">
+            <p>
+                The film revolves around the devastating events that took place on July 22, 2011, when a right-wing extremist, Anders Behring Breivik, carried out a dual attack in Oslo and Utøya island, targeting government buildings and a youth camp.
+            </p>
+          </div>
+        </div>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 ScreenSpot. All rights reserved.</p>
+  </footer>
+</body>
+</html>
