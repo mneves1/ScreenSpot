@@ -1,7 +1,7 @@
-package com.screenspot.moviesbygenre.service;
+package com.screenspot.Backend.service;
 
-import com.screenspot.moviesbygenre.entiry.Band;
-import com.screenspot.moviesbygenre.repository.BandRepository;
+import com.screenspot.Backend.entiry.Band;
+import com.screenspot.Backend.repository.BandRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

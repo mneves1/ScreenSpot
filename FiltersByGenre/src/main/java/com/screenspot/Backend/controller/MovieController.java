@@ -1,7 +1,7 @@
-package com.screenspot.moviesbygenre.controller;
+package com.screenspot.Backend.controller;
 
-import com.screenspot.moviesbygenre.entiry.Movie;
-import com.screenspot.moviesbygenre.service.MovieService;
+import com.screenspot.Backend.entiry.Movie;
+import com.screenspot.Backend.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

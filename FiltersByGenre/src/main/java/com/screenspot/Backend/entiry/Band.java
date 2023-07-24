@@ -1,4 +1,4 @@
-package com.screenspot.moviesbygenre.entiry;
+package com.screenspot.Backend.entiry;
 
 import jakarta.persistence.*;
 @Entity

@@ -1,4 +1,4 @@
-package com.screenspot.moviesbygenre;
+package com.screenspot.Backend;
 
 import org.hibernate.boot.model.naming.Identifier;
 import org.hibernate.boot.model.naming.PhysicalNamingStrategy;

@@ -1,12 +1,11 @@
-package com.screenspot.moviesbygenre.service;
+package com.screenspot.Backend.service;
 
-import com.screenspot.moviesbygenre.entiry.Movie;
-import com.screenspot.moviesbygenre.repository.MovieRepository;
+import com.screenspot.Backend.entiry.Movie;
+import com.screenspot.Backend.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class MovieService {
